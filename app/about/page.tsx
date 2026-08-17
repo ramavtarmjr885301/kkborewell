@@ -77,10 +77,11 @@ export default function AboutPage() {
                 {/* Office photo */}
                 <section className="bg-(--color-paper-50) pb-16">
                     <div className="mx-auto max-w-6xl px-5 md:px-8">
-                        <div className="aspect-[16/7] overflow-hidden rounded-3xl border border-(--color-line)">
+                        <div className="h-full w-full object-contain">
                             <PhotoSlot
+                                src="/images/office/office-front.png"
                                 alt="K.K. Borewell and Pumps office / workshop"
-                                suggestedFile="/images/office/office-front.jpg"
+                                suggestedFile="/images/office/office-front.png"
                             />
                         </div>
                     </div>

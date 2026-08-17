@@ -12,16 +12,64 @@ export const metadata: Metadata = {
 
 // Once you have real photos, drop the files into /public/images/gallery/
 // and add "src: '/images/gallery/<filename>.jpg'" to the matching item below.
+// const galleryItems: { alt: string; suggestedFile: string; src?: string }[] = [
+//     { alt: "Drill rig boring a new borehole", suggestedFile: "boring-1.jpg" },
+//     { alt: "Casing pipe being lowered into the shaft", suggestedFile: "boring-2.jpg" },
+//     { alt: "Submersible pump being fitted", suggestedFile: "installation-1.jpg" },
+//     { alt: "Control panel wiring for automation", suggestedFile: "automation-1.jpg" },
+//     { alt: "Earthing rod installation", suggestedFile: "earthing-1.jpg" },
+//     { alt: "Mono block pump fitted on site", suggestedFile: "monoblock-1.jpg" },
+//     { alt: "Rainwater harvesting recharge pit", suggestedFile: "harvesting-1.jpg" },
+//     { alt: "Pump repair in progress", suggestedFile: "repair-1.jpg" },
+//     { alt: "Completed installation, water running", suggestedFile: "completed-1.jpg" },
+// ];
+
 const galleryItems: { alt: string; suggestedFile: string; src?: string }[] = [
-    { alt: "Drill rig boring a new borehole", suggestedFile: "boring-1.jpg" },
-    { alt: "Casing pipe being lowered into the shaft", suggestedFile: "boring-2.jpg" },
-    { alt: "Submersible pump being fitted", suggestedFile: "installation-1.jpg" },
-    { alt: "Control panel wiring for automation", suggestedFile: "automation-1.jpg" },
-    { alt: "Earthing rod installation", suggestedFile: "earthing-1.jpg" },
-    { alt: "Mono block pump fitted on site", suggestedFile: "monoblock-1.jpg" },
-    { alt: "Rainwater harvesting recharge pit", suggestedFile: "harvesting-1.jpg" },
-    { alt: "Pump repair in progress", suggestedFile: "repair-1.jpg" },
-    { alt: "Completed installation, water running", suggestedFile: "completed-1.jpg" },
+    {
+        alt: "Drill rig boring a new borehole",
+        suggestedFile: "boring-1.jpg",
+        src: "/images/gallery/boring-1.jpg",
+    },
+    {
+        alt: "Casing pipe being lowered into the shaft",
+        suggestedFile: "boring-2.jpg",
+        src: "/images/gallery/boring-2.jpg",
+    },
+    {
+        alt: "Submersible pump being fitted",
+        suggestedFile: "installation-1.jpg",
+        src: "/images/gallery/installation-1.jpg",
+    },
+    {
+        alt: "Control panel wiring for automation",
+        suggestedFile: "automation-1.jpg",
+        src: "/images/gallery/automation-1.jpg",
+    },
+    {
+        alt: "Earthing rod installation",
+        suggestedFile: "earthing-1.jpg",
+        src: "/images/gallery/earthing-1.jpg",
+    },
+    {
+        alt: "Mono block pump fitted on site",
+        suggestedFile: "monoblock-1.jpg",
+        src: "/images/gallery/monoblock-1.jpg",
+    },
+    {
+        alt: "Rainwater harvesting recharge pit",
+        suggestedFile: "harvesting-1.jpg",
+        src: "/images/gallery/harvesting-1.jpg",
+    },
+    {
+        alt: "Pump repair in progress",
+        suggestedFile: "repair-1.jpg",
+        src: "/images/gallery/repair-1.jpg",
+    },
+    {
+        alt: "Completed installation, water running",
+        suggestedFile: "completed-1.jpg",
+        src: "/images/gallery/completed-1.jpg",
+    },
 ];
 
 export default function GalleryPage() {
@@ -46,7 +94,7 @@ export default function GalleryPage() {
 
                 <section className="bg-(--color-paper-50) py-16">
                     <div className="mx-auto max-w-6xl px-5 md:px-8">
-                        <div className="mb-8 rounded-2xl border border-(--color-rust-500)/30 bg-(--color-rust-500)/5 p-4 font-body text-sm text-(--color-ink-900)/75">
+                        {/* <div className="mb-8 rounded-2xl border border-(--color-rust-500)/30 bg-(--color-rust-500)/5 p-4 font-body text-sm text-(--color-ink-900)/75">
                             <strong className="text-(--color-rust-600)">Owner note:</strong>{" "}
                             these tiles are placeholders. Save your real job photos into{" "}
                             <code className="rounded bg-white px-1.5 py-0.5 font-mono text-xs">
@@ -57,7 +105,7 @@ export default function GalleryPage() {
                                 src
                             </code>{" "}
                             in <code className="rounded bg-white px-1.5 py-0.5 font-mono text-xs">app/gallery/page.tsx</code> — the photo will replace the placeholder automatically.
-                        </div>
+                        </div> */}
 
                         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                             {galleryItems.map((item) => (

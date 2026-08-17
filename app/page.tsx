@@ -4,13 +4,26 @@ import ServicesPreview from "@/components/ServicesPreview";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Link from "next/link";
+import PhotoSlot from "@/components/PhotoSlot";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
+
         <Hero />
+        <section className="bg-(--color-paper-50) pb-16">
+          <div className="mx-auto max-w-6xl px-5 md:px-8">
+            <div className="h-full w-full object-contain">
+              <PhotoSlot
+                src="/images/office/office-front.png"
+                alt="K.K. Borewell and Pumps office / workshop"
+                suggestedFile="/images/office/office-front.png"
+              />
+            </div>
+          </div>
+        </section>
         <ServicesPreview />
 
         <section className="bg-(--color-paper-50) py-20">
