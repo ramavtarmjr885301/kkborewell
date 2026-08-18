@@ -86,8 +86,8 @@ export default function ContactPage() {
 
                             <div className="overflow-hidden rounded-3xl border border-(--color-line)">
                                 <iframe
-                                    title="K.K. Borewell and Pumps location — Rampur Jagir, Beta-1, Greater Noida"
-                                    src="https://www.google.com/maps?q=Rampur+Jagir+Beta+1+Greater+Noida&output=embed"
+                                    title="K.K. Borewell and Pumps location — House No. D129, Pocket D, Sector Eta-1, Greater Noida"
+                                    src="https://www.google.com/maps?q=House+No.+D129,+Pocket+D,+Sector+Eta-1,+Greater+Noida,+G.B.+Nagar,+Uttar+Pradesh+201308&output=embed"
                                     className="h-72 w-full"
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
