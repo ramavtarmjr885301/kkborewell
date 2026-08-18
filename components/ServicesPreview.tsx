@@ -14,7 +14,7 @@ export default function ServicesPreview() {
                             What we do
                         </p>
                         <h2 className="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">
-                            Services, not sales
+                            Services
                         </h2>
                         <p className="mt-4 font-body text-white/70">
                             We don&apos;t sell pumps off a shelf — we install, automate,

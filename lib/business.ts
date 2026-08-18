@@ -4,7 +4,7 @@ export const business = {
   phone: "9760196371",
   phoneDisplay: "+91 9760196371",
   email: "help-kkborewell@gmail.com",
-  address: "Rampur Jagir, Beta-1, Greater Noida, G.B. Nagar",
+  address: "Sector Eta-1, Pocket D,Greater Noida, G.B. Nagar, Uttar Pradesh 201308",
   whatsappBase: "https://wa.me/919760196371",
 };
 
