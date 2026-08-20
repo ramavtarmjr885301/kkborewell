@@ -7,9 +7,7 @@ type Testimonial = {
     text: string;
 };
 
-// Copy real reviews from your Google Business Profile here — name, star
-// rating (1-5), and the review text. Do not invent entries; only paste
-// what customers actually wrote on Google.
+
 const testimonials: Testimonial[] = [
     {
         name: "Khushboo Shrivastav",
