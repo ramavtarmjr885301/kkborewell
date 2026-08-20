@@ -3,7 +3,7 @@ export const business = {
   owner: "Kishan Kumar",
   phone: "9760196371",
   phoneDisplay: "+91 9760196371",
-  email: "help-kkborewell@gmail.com",
+  email: "help.kkborewell@gmail.com",
   address: "House No. D129, Pocket D,Sector Eta-1, Greater Noida, G.B. Nagar, Uttar Pradesh 201308",
   whatsappBase: "https://wa.me/919760196371",
   googleReviewsUrl: "https://www.google.com/maps/place/KK+Borewell+and+Contractor/@28.4727619,77.5120391,17z/data=!4m8!3m7!1s0x390ceb32f1528259:0xc9f8efed44f89493!8m2!3d28.4727619!4d77.5120391!9m1!1b1!16s%2Fg%2F11npx7nwjv?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDgxNy4wIKXMDSoASAFQAw%3D%3D",
