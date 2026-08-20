@@ -28,10 +28,21 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-(--color-line) bg-(--color-paper-50)/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8">
-        <Link href="/" className="flex items-center gap-2.5">
+        {/* <Link href="/" className="flex items-center gap-2.5">
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-(--color-well-800) font-display text-sm font-bold text-white">
             KK
           </span>
+          <span className="font-display text-[15px] font-semibold leading-tight text-(--color-well-900) sm:text-base">
+            {business.name}
+          </span>
+        </Link> */}
+
+        <Link href="/" className="flex items-center gap-2.5">
+          <img
+            src="/images/gallery/logo.png"
+            alt={`${business.name} logo`}
+            className="h-10 w-auto shrink-0 object-contain"
+          />
           <span className="font-display text-[15px] font-semibold leading-tight text-(--color-well-900) sm:text-base">
             {business.name}
           </span>
