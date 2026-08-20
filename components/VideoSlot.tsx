@@ -1,10 +1,7 @@
 type VideoSlotProps = {
-    /** Path relative to /public, e.g. "/videos/boring-1.mp4". Leave empty until you add the real file. */
     src?: string;
-    /** Optional thumbnail shown before play, path relative to /public, e.g. "/images/gallery/boring-1-poster.jpg" */
     poster?: string;
     alt: string;
-    /** Filename you should save into /public/videos/, e.g. "boring-1.mp4" */
     suggestedFile: string;
     className?: string;
 };

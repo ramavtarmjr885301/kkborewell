@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ServicesPreview from "@/components/ServicesPreview";
+import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Link from "next/link";
@@ -25,7 +26,7 @@ export default function Home() {
           </div>
         </section>
         <ServicesPreview />
-
+        <Testimonials />
         <section className="bg-(--color-paper-50) py-20">
           <div className="mx-auto max-w-4xl px-5 text-center md:px-8">
             <h2 className="font-display text-2xl font-bold text-(--color-well-900) sm:text-3xl">
