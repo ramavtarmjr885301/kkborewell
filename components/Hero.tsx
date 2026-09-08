@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-12 md:grid-cols-2 md:px-8 md:pb-24 md:pt-16">
         <div className="animate-rise">
           <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-(--color-line) bg-white px-3 py-1 font-mono text-xs tracking-wide text-(--color-well-800)">
-            RAMPUR JAGIR · BETA-1 · GREATER NOIDA
+            House No. D129, Pocket D,Sector Eta-1, Greater Noida, G.B. Nagar, Uttar Pradesh 201308
           </p>
           <h1 className="font-display text-4xl font-bold leading-[1.08] text-(--color-well-900) sm:text-5xl">
             Whatever&apos;s below the surface, we bring the water up.
