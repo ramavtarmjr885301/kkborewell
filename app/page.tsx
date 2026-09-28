@@ -13,7 +13,7 @@ export default function Home() {
       <main>
 
         <Hero />
-        <section className="bg-(--color-paper-50) pb-16">
+        {/* <section className="bg-(--color-paper-50) pb-16">
           <div className="mx-auto max-w-6xl px-5 md:px-8">
             <div className="h-full w-full object-contain">
               <PhotoSlot
@@ -23,7 +23,7 @@ export default function Home() {
               />
             </div>
           </div>
-        </section>
+        </section> */}
         <ServicesPreview />
         <Testimonials />
         <section className="bg-(--color-paper-50) py-20">
