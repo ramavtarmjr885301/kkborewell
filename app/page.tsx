@@ -3,10 +3,8 @@ import Hero from "@/components/Hero";
 import ServicesPreview from "@/components/ServicesPreview";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Link from "next/link";
 import PhotoSlot from "@/components/PhotoSlot";
-import FloatingCall from "@/components/FloatingCall";
 
 export default function Home() {
   return (

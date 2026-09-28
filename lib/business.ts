@@ -34,6 +34,24 @@ export type Service = {
 
 export const services: Service[] = [
   {
+    slug: "specialist-boring",
+    tag: "BORING",
+    title: "Specialist Boring — 4\" to 18\"",
+    short:
+      "Borewell boring in 4\", 5\", 6\" and larger sizes, all the way up to 18\" diameter.",
+    long: "We bore in 4\", 5\" and 6\" sizes and go up to 18\" diameter, so you get the right borehole size for a home, farm or industrial water need.",
+    equipment: ["drill-rig", "casing-pipe"],
+  },
+  {
+    slug: "specialist-deep-boring",
+    tag: "DEEP BORING",
+    title: "Specialist Deep Boring — 4\" to 5\" in 4 Hours",
+    short:
+      "Fast deep boring in 4\" to 5\" sizes, completed in just 4 hours.",
+    long: "Our deep boring service for 4\" to 5\" boreholes is completed in about 4 hours, so your water supply is up and running quickly.",
+    equipment: ["drill-rig", "casing-pipe"],
+  },
+  {
     slug: "submersible-pump-boring",
     tag: "SPECIALIST",
     title: "Submersible Pump — Boring & Installation",
