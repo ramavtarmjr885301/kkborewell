@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Link from "next/link";
 import PhotoSlot from "@/components/PhotoSlot";
+import FloatingCall from "@/components/FloatingCall";
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <FloatingCall />
     </>
   );
 }

@@ -19,6 +19,10 @@ export function mailLink(subject: string, body: string) {
   )}&body=${encodeURIComponent(body)}`;
 }
 
+export function telLink() {
+  return `tel:+91${business.phone}`;
+}
+
 export type Service = {
   slug: string;
   tag: string;
