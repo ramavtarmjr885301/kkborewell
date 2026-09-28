@@ -86,6 +86,8 @@ export default function ContactForm() {
                     className={inputClass}
                 >
                     <option value="">Select a service</option>
+                    <option>Boring 4" to 18"</option>
+                    <option>Deep Boring 4" to 5"</option>
                     <option>Submersible Pump Boring & Installation</option>
                     <option>Pump Automation</option>
                     <option>Mono Block & Industrial Pumps</option>
