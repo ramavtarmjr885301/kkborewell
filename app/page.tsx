@@ -55,8 +55,6 @@ export default function Home() {
         </section>
       </main>
       <Footer />
-      <FloatingWhatsApp />
-      <FloatingCall />
     </>
   );
 }

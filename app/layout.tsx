@@ -9,6 +9,8 @@ import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/500.css";
 import "@fontsource/jetbrains-mono/700.css";
 import "./globals.css";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import FloatingCall from "@/components/FloatingCall";
 
 export const metadata: Metadata = {
   title: "K.K. Borewell and Pumps | Submersible Pump Installation & Repair, Greater Noida",
@@ -40,6 +42,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         {children}
+        <FloatingWhatsApp />
+        <FloatingCall />
       </body>
     </html>
   );
