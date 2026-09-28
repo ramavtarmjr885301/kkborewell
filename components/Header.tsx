@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-(--color-line) bg-(--color-paper-50)/95 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 md:px-8">
         {/* <Link href="/" className="flex items-center gap-2.5">
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-(--color-well-800) font-display text-sm font-bold text-white">
             KK

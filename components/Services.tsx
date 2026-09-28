@@ -39,7 +39,7 @@ const services = [
 export default function Services() {
   return (
     <section id="services" className="bg-(--color-well-900) py-20">
-      <div className="mx-auto max-w-6xl px-5 md:px-8">
+      <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="max-w-xl">
           <p className="font-mono text-xs uppercase tracking-widest text-(--color-aqua-400)">
             What we do

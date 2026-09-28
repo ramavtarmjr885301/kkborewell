@@ -5,25 +5,19 @@ import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import PhotoSlot from "@/components/PhotoSlot";
+import OfficeSlider from "@/components/OfficeSlider";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-
         <Hero />
-        {/* <section className="bg-(--color-paper-50) pb-16">
-          <div className="mx-auto max-w-6xl px-5 md:px-8">
-            <div className="h-full w-full object-contain">
-              <PhotoSlot
-                src="/images/office/office-front.png"
-                alt="K.K. Borewell and Pumps office / workshop"
-                suggestedFile="/images/office/office-front.png"
-              />
-            </div>
+        <section className="bg-(--color-paper-50) pt-10 pb-16 md:pt-14">
+          <div className="mx-auto max-w-7xl px-5 md:px-8">
+            <OfficeSlider />
           </div>
-        </section> */}
+        </section>
         <ServicesPreview />
         <Testimonials />
         <section className="bg-(--color-paper-50) py-20">

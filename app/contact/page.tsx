@@ -18,7 +18,7 @@ export default function ContactPage() {
             <Header />
             <main>
                 <section className="bg-(--color-paper-50) py-16">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <p className="font-mono text-xs uppercase tracking-widest text-(--color-rust-600)">
                             Get in touch
                         </p>
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 </section>
 
                 <section className="bg-(--color-paper-50) pb-20">
-                    <div className="mx-auto grid max-w-6xl gap-10 px-5 md:px-8 lg:grid-cols-[1fr_1fr]">
+                    <div className="mx-auto grid max-w-7xl gap-10 px-5 md:px-8 lg:grid-cols-[1fr_1fr]">
                         <div className="rounded-3xl border border-(--color-line) bg-white p-6 md:p-8">
                             <h2 className="mb-5 font-display text-lg font-semibold text-(--color-well-900)">
                                 Send an enquiry

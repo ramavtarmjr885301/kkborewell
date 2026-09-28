@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
 export default function Testimonials() {
     return (
         <section className="bg-(--color-aqua-200)/40 py-20">
-            <div className="mx-auto max-w-6xl px-5 md:px-8">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
                 <div className="flex flex-wrap items-end justify-between gap-4">
                     <div className="max-w-xl">
                         <p className="font-mono text-xs uppercase tracking-widest text-(--color-rust-600)">

@@ -5,7 +5,7 @@ import WhatsAppIcon from "./icons/WhatsAppIcon";
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden bg-(--color-paper-50)">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-12 md:grid-cols-2 md:px-8 md:pb-24 md:pt-16">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 pt-12 md:grid-cols-2 md:px-8 md:pb-24 md:pt-16">
         <div className="animate-rise">
           <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-(--color-line) bg-white px-3 py-1 font-mono text-xs tracking-wide text-(--color-well-800)">
             House No. D129, Pocket D,Sector Eta-1, Greater Noida, G.B. Nagar, Uttar Pradesh 201308

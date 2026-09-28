@@ -59,7 +59,7 @@ export default function AboutPage() {
             <Header />
             <main>
                 <section className="bg-(--color-paper-50) py-16">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <p className="font-mono text-xs uppercase tracking-widest text-(--color-rust-600)">
                             About us
                         </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
 
                 {/* Office photo */}
                 <section className="bg-(--color-paper-50) pb-16">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <div className="h-full w-full object-contain">
                             <PhotoSlot
                                 src="/images/office/office-front.png"
@@ -89,7 +89,7 @@ export default function AboutPage() {
 
                 {/* Why us */}
                 <section id="why-us" className="bg-(--color-aqua-200)/40 py-20">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <div className="grid gap-6 sm:grid-cols-2">
                             {points.map((p) => (
                                 <div key={p.title} className="border-l-2 border-(--color-well-800) pl-5">
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
                 {/* Process */}
                 <section id="process" className="bg-(--color-paper-50) py-20">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <p className="font-mono text-xs uppercase tracking-widest text-(--color-rust-600)">
                             How a job runs
                         </p>

@@ -103,7 +103,7 @@ export default function GalleryPage() {
             <Header />
             <main>
                 <section className="bg-(--color-well-900) py-16">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <p className="font-mono text-xs uppercase tracking-widest text-(--color-aqua-400)">
                             Gallery
                         </p>
@@ -118,7 +118,7 @@ export default function GalleryPage() {
                 </section>
 
                 <section className="bg-(--color-paper-50) py-16">
-                    <div className="mx-auto max-w-6xl px-5 md:px-8">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
                         <GalleryTabs photos={photoItems} videos={videoItems} />
                     </div>
                 </section>

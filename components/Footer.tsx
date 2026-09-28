@@ -5,7 +5,7 @@ import WhatsAppIcon from "./icons/WhatsAppIcon";
 export default function Footer() {
   return (
     <footer className="bg-(--color-ink-900) pt-16">
-      <div className="mx-auto max-w-6xl px-5 md:px-8">
+      <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-10 border-b border-white/10 pb-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2.5">
