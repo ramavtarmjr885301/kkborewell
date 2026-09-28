@@ -33,7 +33,7 @@ export default function OfficeSlider({ slides = SLIDES }: { slides?: Slide[] }) 
 
     return (
         <div
-            className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl"
+            className="relative aspect-[18/9] w-full overflow-hidden rounded-2xl"
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
         >

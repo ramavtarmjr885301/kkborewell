@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <section className="bg-(--color-paper-50) pt-10 pb-16 md:pt-14">
+        <section className="bg-(--color-paper-50) pt-0 pb-5 md:pt-14">
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <OfficeSlider />
           </div>
